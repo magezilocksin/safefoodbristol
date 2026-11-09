@@ -64,6 +64,12 @@ As an owner of a restaurant, I want to be able to search for food hygiene rating
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+#### UC1: SEARCH FOR HYGIENE RATINGS OF PROSPECTIVE RESTAURANTS
+- NFR1.1: 
 
-Indicate which UC the requirement comes from.
+#### UC2: CHECK WHETHER THE HYGIENE RATINGS ARE UP-TO-DATE
+- NFR2.1: 
+
+#### UC3: OBTAIN HYGIENE RATINGS TO DISPLAY IN THEIR APPLICATIONS
+- NFR3.1: 
+
