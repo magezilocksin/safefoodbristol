@@ -51,10 +51,12 @@ As an owner of a restaurant, I want to be able to search for food hygiene rating
 #### UC1: SEARCH FOR HYGIENE RATINGS OF PROSPECTIVE RESTAURANTS
 - FR1.1: The system shall find restaurants by name from the Safe Food Bristol database.
 - FR1.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
+- FR1.3: The system should provide a comparison feature between two or more restaurants on food hygiene ratings from Open Data Bristol.
 
 #### UC2: CHECK WHETHER THE HYGIENE RATINGS ARE UP-TO-DATE
 - FR2.1: The system shall find restaurants by name from the Safe Food Bristol database.
 - FR2.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
+- FR1.3: The system should display an email address.
 
 #### UC3: OBTAIN HYGIENE RATINGS TO DISPLAY IN THEIR APPLICATIONS
 - FR3.1: The system shall find restaurants by name from the Safe Food Bristol database.
