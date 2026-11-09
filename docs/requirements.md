@@ -7,6 +7,8 @@ As a food consumer, I want to be able to search for food hygiene ratings of rest
 
 As an owner of a food delivery platform, I want to be able to incorporate food hygiene ratings of the restaurants I offer services to in order to help give food consumers more information regarding restaurants they opt to dine from as well as avoid delivering contaminated food for which I could be held liable. 
 
+As an owner of a restaurant, I want to be able to search for food hygiene ratings displayed on the internet and identify whether or not they are accurate in order to know if food consumers have a proper view of my restaurant.
+
 ### Actors
 - Food Consumers
 - Government Food and Health Agencies
@@ -46,11 +48,17 @@ As an owner of a food delivery platform, I want to be able to incorporate food h
 
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
+#### UC1: SEARCH FOR HYGIENE RATINGS OF PROSPECTIVE RESTAURANTS
+- FR1.1: The system shall find restaurants by name from the Safe Food Bristol database.
+- FR1.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
 
+#### UC2: CHECK WHETHER THE HYGIENE RATINGS ARE UP-TO-DATE
+- FR2.1: The system shall find restaurants by name from the Safe Food Bristol database.
+- FR2.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
+
+#### UC3: OBTAIN HYGIENE RATINGS TO DISPLAY IN THEIR APPLICATIONS
+- FR3.1: The system shall find restaurants by name from the Safe Food Bristol database.
+- FR3.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
