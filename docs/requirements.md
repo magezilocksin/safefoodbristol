@@ -56,7 +56,7 @@ As an owner of a restaurant, I want to be able to search for food hygiene rating
 #### UC2: CHECK WHETHER THE HYGIENE RATINGS ARE UP-TO-DATE
 - FR2.1: The system shall find restaurants by name from the Safe Food Bristol database.
 - FR2.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
-- FR1.3: The system should display an email address.
+- FR1.3: The system should display an email address for inquiries concerning the food hygiene ratings displayed.
 
 #### UC3: OBTAIN HYGIENE RATINGS TO DISPLAY IN THEIR APPLICATIONS
 - FR3.1: The system shall find restaurants by name from the Safe Food Bristol database.
