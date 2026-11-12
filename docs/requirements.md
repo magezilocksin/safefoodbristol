@@ -63,13 +63,15 @@ As an owner of a restaurant, I want to be able to search for food hygiene rating
 - FR3.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-#### UC1: SEARCH FOR HYGIENE RATINGS OF PROSPECTIVE RESTAURANTS
-- NFR1.1: 
+- NFR1.1: The system shall accurately display the food hygiene ratings from Open Data Bristol.
+- NFR1.2: The system shall prevent the food hygiene ratings from being altered or tampered with without authorisation.
+- NFR1.3: The system should handle unexpected service errors without crashing the entire application.
+- NFR1.4: The system should recover automatically or restore normal operation following a failure.
+- NFR1.5: The system shall display legible and visually appealing information.
+- NFR1.6: The system should respond to user requests within 2 seconds under normal operating conditions.
+- NFR1.7: The system shall have a simple and easily navigable interface.
+- NFR1.8: The system should be able to easily accommodate changes to the food hygiene ratings displayed wherever necessary.
+- NFR1.9: The system shall provide consistent functionality across desktop, tablet and mobile device browsers. 
+- NFR1.10: The system should ensure that all implemented functionalities operate in accordance with the defined regulatory obligations, organisational policies and applicable technical standards.
 
-#### UC2: CHECK WHETHER THE HYGIENE RATINGS ARE UP-TO-DATE
-- NFR2.1: 
-
-#### UC3: OBTAIN HYGIENE RATINGS TO DISPLAY IN THEIR APPLICATIONS
-- NFR3.1: 
 
