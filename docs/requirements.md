@@ -63,13 +63,13 @@ As an owner of a restaurant, I want to be able to search for food hygiene rating
 - FR3.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
 
 ### Non-Functional Requirements
-- NFR1.1: The system shall accurately display the food hygiene ratings from Open Data Bristol.
-- NFR1.2: The system shall prevent the food hygiene ratings from being altered or tampered with without authorisation.
-- NFR1.3: The system should handle unexpected service errors like incorrect input of restaurant names when searching without crashing the entire application.
-- NFR1.4: The system shall display legible and visually appealing information about restaurants and their food hygiene ratings from Open Data Bristol
-- NFR1.5: The system should respond to user requests within 2 seconds under normal operating conditions.
-- NFR1.6: The system should be able to easily accommodate changes to the food hygiene ratings displayed whenever necessary.
-- NFR1.7: The system shall provide consistent functionality across desktop, tablet and mobile device browsers. 
-- NFR1.8: The system should ensure that all implemented functionalities operate in accordance with the defined regulatory obligations, organisational policies and applicable technical standards.
+- NFR 1: The system shall accurately display the food hygiene ratings from Open Data Bristol.
+- NFR 2: The system shall prevent the food hygiene ratings from being altered or tampered with without authorisation.
+- NFR 3: The system should handle unexpected service errors like incorrect input of restaurant names when searching without crashing the entire application.
+- NFR 4: The system shall display legible and visually appealing information about restaurants and their food hygiene ratings from Open Data Bristol
+- NFR 5: The system should respond to user requests within 2 seconds under normal operating conditions.
+- NFR 6: The system should be able to easily accommodate changes to the food hygiene ratings displayed whenever necessary.
+- NFR 7: The system shall provide consistent functionality across desktop, tablet and mobile device browsers. 
+- NFR 8: The system should ensure that all implemented functionalities operate in accordance with the defined regulatory obligations, organisational policies and applicable technical standards.
 
 
