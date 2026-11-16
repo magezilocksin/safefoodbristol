@@ -65,13 +65,11 @@ As an owner of a restaurant, I want to be able to search for food hygiene rating
 ### Non-Functional Requirements
 - NFR1.1: The system shall accurately display the food hygiene ratings from Open Data Bristol.
 - NFR1.2: The system shall prevent the food hygiene ratings from being altered or tampered with without authorisation.
-- NFR1.3: The system should handle unexpected service errors without crashing the entire application.
-- NFR1.4: The system should recover automatically or restore normal operation following a failure.
-- NFR1.5: The system shall display legible and visually appealing information about restaurants and their food hygiene ratings from Open Data Bristol
-- NFR1.6: The system should respond to user requests within 2 seconds under normal operating conditions.
-- NFR1.7: The system shall have a simple and easily navigable interface.
-- NFR1.8: The system should be able to easily accommodate changes to the food hygiene ratings displayed wherever necessary.
-- NFR1.9: The system shall provide consistent functionality across desktop, tablet and mobile device browsers. 
-- NFR1.10: The system should ensure that all implemented functionalities operate in accordance with the defined regulatory obligations, organisational policies and applicable technical standards.
+- NFR1.3: The system should handle unexpected service errors like incorrect input of restaurant names when searching without crashing the entire application.
+- NFR1.4: The system shall display legible and visually appealing information about restaurants and their food hygiene ratings from Open Data Bristol
+- NFR1.5: The system should respond to user requests within 2 seconds under normal operating conditions.
+- NFR1.6: The system should be able to easily accommodate changes to the food hygiene ratings displayed whenever necessary.
+- NFR1.7: The system shall provide consistent functionality across desktop, tablet and mobile device browsers. 
+- NFR1.8: The system should ensure that all implemented functionalities operate in accordance with the defined regulatory obligations, organisational policies and applicable technical standards.
 
 
