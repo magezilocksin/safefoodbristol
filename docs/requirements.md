@@ -67,7 +67,7 @@ As an owner of a restaurant, I want to be able to search for food hygiene rating
 - NFR1.2: The system shall prevent the food hygiene ratings from being altered or tampered with without authorisation.
 - NFR1.3: The system should handle unexpected service errors without crashing the entire application.
 - NFR1.4: The system should recover automatically or restore normal operation following a failure.
-- NFR1.5: The system shall display legible and visually appealing information.
+- NFR1.5: The system shall display legible and visually appealing information about restaurants and their food hygiene ratings from Open Data Bristol
 - NFR1.6: The system should respond to user requests within 2 seconds under normal operating conditions.
 - NFR1.7: The system shall have a simple and easily navigable interface.
 - NFR1.8: The system should be able to easily accommodate changes to the food hygiene ratings displayed wherever necessary.
