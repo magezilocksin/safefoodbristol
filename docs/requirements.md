@@ -63,13 +63,29 @@ As an owner of a restaurant, I want to be able to search for food hygiene rating
 - FR3.2: The system shall query the database for food hygiene ratings from Open Data Bristol.
 
 ### Non-Functional Requirements
-- NFR 1: The system shall accurately display the food hygiene ratings from Open Data Bristol.
-- NFR 2: The system shall prevent the food hygiene ratings from being altered or tampered with without authorisation.
-- NFR 3: The system should handle unexpected service errors like incorrect input of restaurant names when searching without crashing the entire application.
-- NFR 4: The system shall display legible and visually appealing information about restaurants and their food hygiene ratings from Open Data Bristol
-- NFR 5: The system should respond to user requests within 2 seconds under normal operating conditions.
-- NFR 6: The system should be able to easily accommodate changes to the food hygiene ratings displayed whenever necessary.
-- NFR 7: The system shall provide consistent functionality across desktop, tablet and mobile device browsers. 
-- NFR 8: The system should ensure that all implemented functionalities operate in accordance with the defined regulatory obligations, organisational policies and applicable technical standards.
+#### NFR 1: The system shall accurately display the food hygiene ratings from Open Data Bristol.
+- Quality Attribute: Accuracy
+- Quality Criteria: 100% numerical correspondence of ratings to those on the Open Data Bristol food hygiene ratings dataset.
+#### NFR 2: The system shall prevent the food hygiene ratings from being altered or tampered with without authorisation.
+- Quality Attribute: Security
+- Quality Criteria: 100% of unauthorised attempts to modify ratings must be rejected.
+#### NFR 3: The system should handle unexpected service errors like incorrect input of restaurant names when searching without crashing the entire application.
+- Quality Attribute: Reliability
+- Quality Criteria: The system shall display an appropriate error message when users enter invalid or unrecognised restaurant names and remain operational following an invalid search request.
+#### NFR 4: The system shall display legible and visually appealing information about restaurants and their food hygiene ratings from Open Data Bristol.
+- Quality Attribute: Usability
+- Quality Criteria: All restaurant names and food hygiene ratings shall be clearly readable. Text and background colours shall provide sufficient contrast for readability.
+#### NFR 5: The system should respond to user requests within 2 seconds under normal operating conditions.
+- Quality Attribute: Performance
+- Quality Criteria: Response times shall be tested and must be within 2 seconds for t least 90% of user requests under normal operating conditions.
+#### NFR 6: The system should be able to easily accommodate changes to the food hygiene ratings displayed whenever necessary.
+- Quality Attribute: Maintainability
+- Quality Criteria: Changes to the data source or rating information shall not affect system functionalities and require complete redesign.
+#### NFR 7: The system shall provide consistent functionality across desktop, tablet and mobile device browsers.
+- Quality Attribute: Compatibility
+- Quality Criteria: The application shall be tested on major browsers, including Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Content should be appropriately displayed across different screen sizes.
+#### NFR 8: The system should ensure that all implemented functionalities operate in accordance with the defined regulatory obligations, organisational policies and applicable technical standards.
+- Quality Attribute: Compliance
+- Quality Criteria: The system shall comply with applicable data protection requirements, including UK GDPR and the Data Protection Act 2018. The system shall comply with the terms and conditions of the Open Data Bristol dataset.
 
 
